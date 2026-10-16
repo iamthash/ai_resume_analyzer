@@ -1,0 +1,13 @@
+Test ID,Test Case,Input,Expected Result,Actual Result,Status
+TC01,Upload PDF resume,Valid PDF file,Resume text extracted,,
+TC02,Upload DOCX resume,Valid DOCX file,Resume text extracted,,
+TC03,Unsupported file type,TXT file,File rejected by uploader,,
+TC04,Large file,File larger than 10 MB,Error message displayed,,
+TC05,Skill extraction,Resume containing Python and SQL,Skills identified correctly,"Extracted SQL CSS JavaScript and problem solving from uploaded resume",Pass
+TC06,Job recommendations,Resume with relevant skills,Top 3 roles recommended,"Recommended Python Developer 38.09% Web Developer 22.58% and Data Analyst 9.35%",Pass
+TC07,Match score chart,Resume with recognized skills,Chart displayed,,
+TC08,Missing skills,Select a target job role,Missing skills displayed,,
+TC09,Learning roadmap,Resume missing required skills,Learning roadmap displayed,,
+TC10,Download report,Processed resume,Report downloads successfully,"Analysis report downloaded with extracted skills job recommendations match scores selected target role and missing skills",Pass
+TC11,Empty or unreadable resume,PDF without readable text,Warning displayed,,
+TC12,Privacy,Upload a sample resume,No intentional permanent resume storage,,
