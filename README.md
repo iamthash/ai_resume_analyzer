@@ -1,4 +1,9 @@
 # AI Resume Analyzer and Job Recommendation System
+## Application Screenshots
+![Skills and Job Recommendations](screenshots/resume_analyzer_demo1.png)
+![Missing Skills and Learning Roadmap](screenshots/resume_analyzer_demo2.png)
+![Analysis Report](screenshots/resume_analyzer_demo3.png)
+
 ## Project Overview
 This project analyzes a resume, identifies skills, recommends suitable job roles, and suggests skills to improve. It uses Python, Streamlit, and machine-learning techniques.
 ## Features
@@ -77,9 +82,3 @@ Match scores are similarity estimates, not probabilities of employment or measur
 The application does not intentionally save uploaded resumes to permanent storage. Avoid uploading resumes containing information you do not wish to share.
 ## Deliverables
 The project submission includes the source code, datasets, Colab notebook, test sheet, workflow diagram, project summary PDF, and student-recorded demonstration video.
-
-
-## Application Screenshots
-![Skills and Job Recommendations](screenshots/resume_analyzer_demo1.png)
-![Missing Skills and Learning Roadmap](screenshots/resume_analyzer_demo2.png)
-![Analysis Report](screenshots/resume_analyzer_demo3.png)
